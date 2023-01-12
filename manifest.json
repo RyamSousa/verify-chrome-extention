@@ -1,0 +1,13 @@
+{
+	"name": "Verify Alert SuperAula",
+	"description": "Extensão para alertar quando houver uma verificação biométrica",
+	"version": "1.0",
+	"author": "Ryam Sousa",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"matches": ["https://www.google.com/*", "https://rn.superau.la/*"],
+			"js": ["index.js"]
+		}
+	]
+}
